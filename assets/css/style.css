@@ -6,9 +6,14 @@
  * Made By MaterializeCSS.com
  */
 
+#nav-header {
+  text-transform: uppercase;
+}
+
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
 	font-size: inherit;
 }
@@ -40,10 +45,6 @@
 #avatar-m {
   box-sizing: content-box;
   display: flex;
-}
-
-.title {
-  text-transform: uppercase;
 }
 
 .subtitle {
@@ -130,6 +131,10 @@ table.striped > tbody > tr:nth-child(2n+1) {
 /*
 ** Cards
 */
+.card-image {
+  display: flex;
+}
+
 .card .card-title.hidden {
   text-indent: -9999px;
 }
